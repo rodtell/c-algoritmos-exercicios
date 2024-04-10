@@ -4,4 +4,4 @@ Prática de exercícios de algorítmos em C.
 
 **eng-us**
 ---
-Algorithms exercises in C.
+Algorithms practice exercises in C.
