@@ -15,7 +15,7 @@ int Main()
   scanf("%d", &sequence_length);
 
   sum_of_sequence = (first_value + last_value) * sequence_length / 2;
-  printf("The sum of the arithmetic sequence is: %d\n",sum_of_sequence);
+  printf("The sum of the arithmetic sequence is: %d\n", sum_of_sequence);
 
   return 0;
 }
