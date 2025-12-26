@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-int Main()
-{
+int Main() {
     int grade_one;
     int grade_two;
     int grade_three;
