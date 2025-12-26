@@ -1,18 +1,18 @@
 #include <stdio.h>
 
-int main(int argc, char *argv[])
+int Main()
 {
   double salary;
-  double hoursWorked;
-  double totalSalary;
+  double hours_worked;
+  double total_salary;
 
   printf("Input salary per hour: \n");
   scanf("%lf", &salary);
   printf("Input hours worked: \n");
-  scanf("%lf", &hoursWorked);
+  scanf("%lf", &hours_worked);
 
-  totalSalary = salary * hoursWorked;
-  printf("Total salary of employee is: %.2f\n",totalSalary );
+  total_salary = salary * hours_worked;
+  printf("Total salary of employee is: %.2f\n", total_salary);
   
   return 0;
 }
