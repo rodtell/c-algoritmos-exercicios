@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-int Main()
-{
+int Main() {
   int grade;
   do {
     printf("Input grade: \n");
