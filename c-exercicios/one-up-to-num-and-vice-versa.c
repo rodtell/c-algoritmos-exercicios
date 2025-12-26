@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-int Main()
-{
+int Main() {
   int number;
 
   printf("Type number:\n");
