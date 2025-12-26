@@ -12,7 +12,7 @@ int Main()
   scanf("%lf", &distance);
 
   total_time = distance / speed;
-  printf("Total time to complete travel: %.2f hours\n",total_time);
+  printf("Total time to complete travel: %.2f hours\n", total_time);
   
   return 0;
 }
