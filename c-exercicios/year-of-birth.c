@@ -1,13 +1,12 @@
 #include <stdio.h>
 
-int main(int argc, char *argv[])
-{
-  int currentYear;
-  int userAge;
+int Main() {
+  int current_year;
+  int user_age;
   printf("Type current year: \n");
-  scanf("%d", &currentYear);
+  scanf("%d", &current_year);
   printf("Type your age: \n");
-  scanf("%d", &userAge);
-  printf("Your year of birth is: %d\n", currentYear-userAge );
+  scanf("%d", &user_age);
+  printf("Your year of birth is: %d\n", current_year - user_age);
   return 0;
 }
