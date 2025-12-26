@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(int argc, char *argv[])
+int Main()
 {
   double value = 0.01;
   for (int i = 1; i <= 30; i++) {
