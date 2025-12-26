@@ -1,19 +1,19 @@
 #include <stdio.h>
 
-int main(int argc, char *argv[])
+int Main()
 {
-  float numberOne;
-  float numberTwo;
+  float number_one;
+  float number_two;
 
   printf("Input first number: \n");
-  scanf("%f", &numberOne);
+  scanf("%f", &number_one);
   printf("Input second number: \n");
-  scanf("%f", &numberTwo);
+  scanf("%f", &number_two);
 
-  if (numberOne > numberTwo) {
-    printf("%.2f is the maximum number and %.2f is the minimum number\n", numberOne, numberTwo );
+  if (number_one > number_two) {
+    printf("%.2f is the maximum number and %.2f is the minimum number\n", number_one, number_two);
   } else {
-    printf("%.2f is the maximum number and %.2f is the minimum number\n", numberTwo, numberOne );
+    printf("%.2f is the maximum number and %.2f is the minimum number\n", number_two, number_one);
   }
 
   return 0;
