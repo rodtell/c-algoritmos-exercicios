@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int Main()
-{
+int Main() {
   int x_value;
   int y_value;
 
