@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-int Main()
-{
+int Main() {
   int number_one;
   int number_two;
   int number_three;
