@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include <ctype.h>
 
-int Main()
-{
+int Main() {
     char character;
 
     printf("Input charcater: \n");
