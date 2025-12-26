@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(int argc, char *argv[])
+int Main()
 {
   int number;
 
@@ -8,9 +8,9 @@ int main(int argc, char *argv[])
   scanf("%d", &number);
 
   if (number % 2 == 0) {
-    printf("The number %d is even\n",number );
+    printf("The number %d is even\n", number);
   } else {
-    printf("The number %d is odd\n",number );
+    printf("The number %d is odd\n", number);
   }
 
   return 0;
