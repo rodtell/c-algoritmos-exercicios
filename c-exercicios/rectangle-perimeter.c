@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-int Main()
-{
+int Main() {
   double width;
   double height;
   double perimeter;
