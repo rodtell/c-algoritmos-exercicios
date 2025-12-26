@@ -1,16 +1,15 @@
 #include <stdio.h>
 
-int main(int argc, char *argv[])
-{
-  int numberOne;
-  int numberTwo;
+int Main() {
+  int number_one;
+  int number_two;
 
   printf("Input first number\n");
-  scanf("%d", &numberOne);
+  scanf("%d", &number_one);
   printf("Input second number\n");
-  scanf("%d", &numberTwo);
+  scanf("%d", &number_two);
 
-  if (numberOne == numberTwo) {
+  if (number_one == number_two) {
     printf("True\n");
   } else {
     printf("False\n");
