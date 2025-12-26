@@ -1,19 +1,18 @@
 #include <stdio.h>
 
-int main(int argc, char *argv[])
-{
-  int numberOne;
-  int numberTwo;
-  int numberThree;
+int Main() {
+  int number_one;
+  int number_two;
+  int number_three;
 
   printf("Input number one\n");
-  scanf("%d", &numberOne);
+  scanf("%d", &number_one);
   printf("Input number two\n");
-  scanf("%d", &numberTwo);
+  scanf("%d", &number_two);
   printf("Input number three\n");
-  scanf("%d", &numberThree);
+  scanf("%d", &number_three);
 
-  if (numberOne == numberTwo && numberTwo == numberThree) {
+  if (number_one == number_two && number_two == number_three) {
     printf("Equal\n");
   } else {
     printf("not Equal\n");
