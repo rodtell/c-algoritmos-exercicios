@@ -10,7 +10,7 @@ int Main()
     scanf("%d", &number);
 
     absolute = abs(number);
-    printf("The absolute value of %d is %d\n",number, absolute );
+    printf("The absolute value of %d is %d\n",number, absolute);
 
     return 0;
 }
