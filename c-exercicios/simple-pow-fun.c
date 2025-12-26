@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
-int Main()
-{
+int Main() {
   int x;
 
   printf("Input number\n");
