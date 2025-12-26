@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-int Main()
-{
+int Main() {
   int first_value;
   int last_value;
   int sequence_length;
