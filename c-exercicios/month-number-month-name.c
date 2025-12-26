@@ -1,14 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(int argc, char *argv[])
+int Main()
 {
-  int monthNumber;
+  int month_number;
 
   printf("Enter month number\n");
-  scanf("%d", &monthNumber);
+  scanf("%d", &month_number);
 
-  switch (monthNumber) {
+  switch (month_number) {
   case 1: {
     printf("January\n");
     break;
