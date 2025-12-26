@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(int argc, char *argv[])
+int Main()
 {
   printf("Current year: %d\n", 2024);
   printf("Year you were born: %d\n", 1979 );
