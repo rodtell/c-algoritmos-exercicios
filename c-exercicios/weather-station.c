@@ -1,21 +1,20 @@
 #include <stdio.h>
 
-int main(int argc, char *argv[])
-{
+int Main() {
   double celsius;
   double fahrenheit;
-  double celToFah;
-  double fahToCel;
+  double cel_to_fah;
+  double fah_to_cel;
 
   printf("Type temperature in celsius: \n");
   scanf("%lf", &celsius);
-  celToFah = celsius * 1.8 + 32;
-  printf("%.1f Celsius to Fahrenheit is: %.1f\n", celsius, celToFah);
+  cel_to_fah = celsius * 1.8 + 32;
+  printf("%.1f Celsius to Fahrenheit is: %.1f\n", celsius, cel_to_fah);
   
   printf("Type temperature in Fahrenheit: \n");
   scanf("%lf", &fahrenheit);
-  fahToCel = (fahrenheit - 32) / 1.8;
-  printf("%.1f Fahrenheit to Celsius is: %.1f\n", fahrenheit, fahToCel );
+  fah_to_cel = (fahrenheit - 32) / 1.8;
+  printf("%.1f Fahrenheit to Celsius is: %.1f\n", fahrenheit, fah_to_cel);
   
   return 0;
 }
