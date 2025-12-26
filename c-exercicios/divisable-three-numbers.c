@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int Main()
-{
+int Main() {
   int number_tne;
   int number_two;
   int number_three;
