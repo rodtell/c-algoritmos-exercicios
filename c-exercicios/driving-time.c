@@ -1,18 +1,18 @@
 #include <stdio.h>
 
-int main(int argc, char *argv[])
+int Main()
 {
   int speed;
   double distance;
-  double totalTime;
+  double total_time;
 
   printf("Input speed (kmh): \n");
   scanf("%d", &speed);
   printf("Input travel distance(km): \n");
   scanf("%lf", &distance);
 
-  totalTime = distance / speed;
-  printf("Total time to complete travel: %.2f hours\n",totalTime );
+  total_time = distance / speed;
+  printf("Total time to complete travel: %.2f hours\n",total_time);
   
   return 0;
 }
