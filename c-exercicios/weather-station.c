@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int Main() {
+int main() {
   double celsius;
   double fahrenheit;
   double cel_to_fah;
