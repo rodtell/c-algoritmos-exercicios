@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int Main() {
+int main() {
 	char digit;
 
 	printf("Input digit: \n");
