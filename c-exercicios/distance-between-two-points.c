@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
-int Main() {
+int main() {
   int x_one;
   int y_one;
   int x_two;
