@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int Main() {
+int main() {
   double salary;
   double hours_worked;
   double total_salary;
