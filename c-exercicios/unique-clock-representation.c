@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int Main() {
+int main() {
   int seconds_total;
   int hours;
   int minutes;
