@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int Main() {
+int main() {
   float data;
   
   printf("Input data: \n");
