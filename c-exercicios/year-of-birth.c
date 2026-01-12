@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int Main() {
+int main() {
   int current_year;
   int user_age;
   printf("Type current year: \n");
