@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int Main() {
+int main() {
     int grade_one;
     int grade_two;
     int grade_three;
