@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int Main() {
+int main() {
   int month_number;
 
   printf("Enter month number\n");
