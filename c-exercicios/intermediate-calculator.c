@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int Main() {
+int main() {
   int first_number;
   int second_number;
   char operation;
