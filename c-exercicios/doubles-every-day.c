@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int Main() {
+int main() {
   double value = 0.01;
   for (int i = 1; i <= 30; i++) {
     value = value * 2;
