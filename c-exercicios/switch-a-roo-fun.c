@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int Main() {
+int main() {
   float number_a = 3.5;
   float number_b = 5.6;
   float number_hold;
