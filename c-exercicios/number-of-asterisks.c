@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int Main() {
+int main() {
     int number;
 
     printf("Input number of times to repeat asterisks: \n");
