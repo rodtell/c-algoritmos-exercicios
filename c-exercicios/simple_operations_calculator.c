@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int Main() {
+int main() {
   printf("Add %d and %d result is: %d\n", 2, 1, 2 + 1);
   printf("Subtract %d and %d result is: %d\n", 2, 1, 2 - 1);
   printf("Multiply %d and %d result is: %d\n", 2, 1, 2 * 1);
