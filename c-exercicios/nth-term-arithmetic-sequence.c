@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int Main() {
+int main() {
   int first_term;
   int n_term;
   int difference_between_terms;
