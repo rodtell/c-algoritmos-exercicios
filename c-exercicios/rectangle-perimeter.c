@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int Main() {
+int main() {
   double width;
   double height;
   double perimeter;
